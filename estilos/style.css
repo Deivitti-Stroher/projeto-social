@@ -18,7 +18,7 @@ body {
 
 main {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #telefone {
@@ -27,18 +27,18 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
-    width: 311px;
+    width: 270px;
 
     background: url('../imagens/frame-iphone.png') no-repeat;
-
+    background-size: contain;
 }
 
 #tela {
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 267px;
-    height: 471px;
+    top:69px;
+    left: 19px;
+    width: 232px;
+    height: 410px;
 }
 
 #redes-sociais {
